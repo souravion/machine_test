@@ -1,0 +1,221 @@
+[
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":1250,
+
+ "date":"01-01-2020"
+
+},
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":1050,
+
+ "date":"01-01-2020"
+
+},
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":10,
+
+ "date":"01-01-2020"
+
+},
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":9850,
+
+ "date":"03-02-2020"
+
+},
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":950,
+
+ "date":"10-04-2020"
+
+},{
+
+ "name":"John Doe",
+
+ "earning_amount":1450,
+
+ "date":"21-04-2020"
+
+},
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":2500,
+
+ "date":"15-04-2020"
+
+},
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":850,
+
+ "date":"12-05-2020"
+
+},
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":750,
+
+ "date":"23-06-2020"
+
+},{
+
+ "name":"John Doe",
+
+ "earning_amount":750,
+
+ "date":"23-06-2020"
+
+},
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":750,
+
+ "date":"23-06-2020"
+
+},
+
+ 
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":650,
+
+ "date":"21-07-2020"
+
+},
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":900,
+
+ "date":"12-08-2020"
+
+},
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":850,
+
+ "date":"02-09-2020"
+
+},{
+
+ "name":"John Doe",
+
+ "earning_amount":850,
+
+ "date":"02-09-2020"
+
+},
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":850,
+
+ "date":"02-09-2020"
+
+},
+
+ 
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":750,
+
+ "date":"15-10-2020"
+
+},
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":900,
+
+ "date":"21-10-2020"
+
+},
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":400,
+
+ "date":"12-11-2020"
+
+},
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":450,
+
+ "date":"17-12-2020"
+
+},{
+
+ "name":"John Doe",
+
+ "earning_amount":450,
+
+ "date":"17-12-2020"
+
+},
+
+ 
+
+{
+
+ "name":"John Doe",
+
+ "earning_amount":560,
+
+ "date":"28-12-2020"
+
+}
+
+]

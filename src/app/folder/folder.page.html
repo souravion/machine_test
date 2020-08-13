@@ -1,0 +1,133 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ folder }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-subtitle>Find out the users mothly wise income</ion-card-subtitle>
+    <!-- <ion-card-title>Card Title</ion-card-title> -->
+  </ion-card-header>
+
+  <ion-card-content>
+    <ion-row>
+      <ion-col size="4">
+        Mothly  
+      </ion-col>
+      <ion-col size="3">
+       Income
+      </ion-col>
+    
+    </ion-row>
+    <ion-row *ngFor="let item of monthWise" >
+      <ion-col size="4">
+        {{item.month}}  
+      </ion-col>
+      <ion-col size="3">
+       {{item.earning_amount}}
+      </ion-col>
+    
+    </ion-row>
+    <ion-card-header>
+    <ion-card-subtitle> Yearly income </ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    Total yearly income : {{total}}
+  </ion-card-content>
+  </ion-card-content>
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-subtitle>Minimum individual income </ion-card-subtitle>
+  </ion-card-header>
+<ion-card-content>
+  <ion-row>
+    <ion-col size="3">
+     {{minimum_individual_income}}
+    </ion-col>
+  </ion-row>
+</ion-card-content>
+</ion-card>
+<ion-card>
+  <ion-card-header>
+    <ion-card-subtitle>Maximum individual income </ion-card-subtitle>
+  </ion-card-header>
+<ion-card-content>
+  <ion-row>
+    <ion-col size="3">
+     {{maximum_individual_income}}
+    </ion-col>
+  </ion-row>
+</ion-card-content>
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-subtitle>Month user income lowest</ion-card-subtitle>
+    <!-- <ion-card-title>Card Title</ion-card-title> -->
+  </ion-card-header>
+
+  <ion-card-content>
+    <ion-row>
+      <ion-col size="4">
+        Name  
+      </ion-col>
+      <ion-col size="4">
+       Month
+      </ion-col>
+      <ion-col size="4">
+        Income
+       </ion-col>
+    </ion-row>
+    <ion-row *ngFor="let item of lowest_income">
+      <ion-col size="4">
+        {{item.name}}  
+      </ion-col>
+      <ion-col size="4">
+        {{item.month}}  
+      </ion-col>
+      <ion-col size="3">
+       {{item.earning_amount}}
+      </ion-col>
+    </ion-row>
+  </ion-card-content>
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-subtitle>Month user income maximum</ion-card-subtitle>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-row>
+      <ion-col size="4">
+        Name  
+      </ion-col>
+      <ion-col size="4">
+       Month
+      </ion-col>
+      <ion-col size="4">
+        Income
+       </ion-col>
+    </ion-row>
+    <ion-row *ngFor="let item of maximum_income">
+      <ion-col size="4">
+        {{item.name}}  
+      </ion-col>
+      <ion-col size="4">
+        {{item.month}}  
+      </ion-col>
+      <ion-col size="3">
+       {{item.earning_amount}}
+      </ion-col>
+    </ion-row>
+  </ion-card-content>
+</ion-card>
+</ion-content>
